@@ -1,1 +1,3 @@
 # me
+
+Test Git configuration
