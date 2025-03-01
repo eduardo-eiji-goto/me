@@ -18,3 +18,13 @@ body {
 *::selection {
     background-color: var(--color-accent);
 }
+
+.container {
+    width: min(70ch, 100dvw - 2ch);
+    margin: 0 auto;
+}
+
+.container--wide {
+    width: min(80ch, 100dvw - 2ch);
+    margin: 0 auto;
+}
