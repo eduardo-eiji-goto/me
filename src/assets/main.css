@@ -19,6 +19,24 @@ body {
     background-color: var(--color-accent);
 }
 
+*:focus-visible {
+    outline: 2px dashed var(--color-primary);
+    outline-offset: 0.3em;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: 2px underline dashed var(--color-primary);
+    text-underline-offset: 25%;
+}
+
+a:focus,
+a:hover,
+button:focus,
+button:hover {
+    background: var(--color-accent);
+}
+
 .container {
     width: min(70ch, 100dvw - 2ch);
     margin: 0 auto;
