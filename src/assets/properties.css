@@ -1,0 +1,64 @@
+/* Font */
+
+@font-face {
+    font-family: 'Cousine';
+    src: url('./Cousine.ttf') format('truetype');
+}
+
+/* Colors */
+
+@property --color-linen {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #fff0e5;
+}
+
+@property --color-licorice {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #1e120b;
+}
+
+@property --color-reseda-green {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #77845c;
+}
+
+@property --color-umber {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #5a4638;
+}
+
+@property --color-peach {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #ffc499;
+}
+
+/* Semantic Colors */
+
+@property --color-base {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #fff0e5;
+}
+
+@property --color-text {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #1e120b;
+}
+
+@property --color-primary {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #77845c;
+}
+
+@property --color-accent {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #ffc499;
+}
