@@ -6,7 +6,7 @@
 
         <section>
             <h3>
-                <span> <time datetime="2023">2023</time> - <time datetime="2025">2025</time> </span>
+                <span><time datetime="2023">2023</time> - <time datetime="2025">2025</time> </span>
                 <br />
                 ExxonMobil
             </h3>
@@ -14,10 +14,22 @@
             <h4>Salesforce Analyst (Sales and Marketing IT)</h4>
 
             <p>
-                As a Salesforce Analyst and Developer for Exxonmobil, I had the privilege to work in
-                different Salesforce orgs and projects. I developed solutions for both the Fuels and
-                Lubricants Value Chains, for applications using Sales Cloud and Service Cloud
-                resources.
+                As a
+                <a
+                    href="https://www.salesforce.com/products/what-is-salesforce/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Salesforce</a
+                >
+                Analyst and Developer for
+                <a
+                    href="https://corporate.exxonmobil.com/locations/brazil"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Exxonmobil</a
+                >, I had the privilege to work in different Salesforce orgs and projects. I
+                developed solutions for both the Fuels and Lubricants Value Chains, for applications
+                using Sales Cloud and Service Cloud resources.
             </p>
 
             <p>
@@ -30,14 +42,14 @@
                 By the end of my time in this role, I was the go-to reference for many of the
                 development-related questions our analysts and developers had. From configuration of
                 tools in their machines, which is company specific due to a lot of security
-                controls, to connection to external APIs, either company's owned or from vendors,
-                such as Medallia.
+                controls, to connection to external APIs, either company owned or from vendors, such
+                as Medallia.
             </p>
         </section>
 
         <section>
             <h3>
-                <span> <time datetime="2022">2022</time> - <time datetime="2023">2023</time> </span>
+                <span><time datetime="2022">2022</time> - <time datetime="2023">2023</time> </span>
                 <br />
                 ExxonMobil
             </h3>
