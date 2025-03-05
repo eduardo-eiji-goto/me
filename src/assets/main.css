@@ -44,12 +44,19 @@ h1 {
 h2 {
     font-size: 2.4rem;
 
-    transform: translateX(-1ch);
+    padding-top: 2em;
+    margin-bottom: 1rem;
 }
 
-h2::before {
-    content: '#';
-    color: var(--color-primary);
+@media screen and (min-width: 50rem) {
+    h2 {
+        transform: translateX(-1ch);
+    }
+
+    h2::before {
+        content: '#';
+        color: var(--color-primary);
+    }
 }
 
 h2 > a:focus {
@@ -58,18 +65,34 @@ h2 > a:focus {
 
 h3 {
     font-size: 1.8rem;
+
+    margin-bottom: 0.3rem;
+}
+
+h3 > a:focus {
+    outline: none;
 }
 
 h4 {
     font-size: 1.2rem;
+
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+p:focus {
+    background-color: var(--color-accent);
 }
 
 .container {
-    width: min(70ch, 100dvw - 2ch);
+    width: min(70ch, 100dvw - 4ch);
     margin: 0 auto;
 }
 
 .container--wide {
-    width: min(80ch, 100dvw - 2ch);
+    width: min(80ch, 100dvw - 4ch);
     margin: 0 auto;
 }
