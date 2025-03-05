@@ -20,25 +20,24 @@
 
             <div class="links">
                 <a
-                    href="https://github.com/eduardo-eiji-goto"
+                    v-for="link in socialLinks"
+                    :key="link.label"
+                    :href="link.to"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    GitHub
-                </a>
-                <a
-                    href="https://www.linkedin.com/in/eduardo-eiji-goto"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    LinkedIn
+                    {{ link.label }}
                 </a>
             </div>
         </div>
     </footer>
 </template>
 
-<script setup></script>
+<script setup>
+import { useSocialLinks } from '@/composables/useSocialLinks'
+
+const socialLinks = useSocialLinks()
+</script>
 
 <style scoped>
 footer {
