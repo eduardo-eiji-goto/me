@@ -26,10 +26,14 @@
                 </a>
             </div>
         </article>
+
+        <PetitPave class="petit-pave" />
     </section>
 </template>
 
 <script setup>
+import PetitPave from './PetitPave.vue'
+
 import { useSocialLinks } from '@/composables/useSocialLinks'
 
 const socialLinks = useSocialLinks()
@@ -41,6 +45,8 @@ section {
     display: grid;
     gap: 1rem;
     grid-template-columns: auto auto;
+
+    position: relative;
 
     .name {
         color: var(--color-primary);
@@ -64,10 +70,16 @@ section {
         padding: 0.5rem 2rem;
         border: 2px dashed var(--color-primary);
         text-decoration: none;
+        background-color: var(--color-base);
     }
 
     .social-link:focus {
         border: none;
+    }
+
+    .social-link:focus,
+    .social-link:hover {
+        background-color: var(--color-accent);
     }
 
     .me-picture {
@@ -90,6 +102,18 @@ section {
             align-items: center;
         }
     }
+}
+
+.petit-pave {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    transform: translate(25%, 15%);
+
+    width: 20em;
+    height: 20em;
+    opacity: 0.5;
 }
 
 .line-through {
