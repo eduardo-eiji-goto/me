@@ -8,7 +8,7 @@
             </a>
 
             <!-- Home Link -->
-            <a href="/" class="header__title">
+            <a href="/me/" class="header__title">
                 <span>{{ `<` }}</span
                 >goto-eduardo <span>{{ `/>` }}</span>
             </a>
