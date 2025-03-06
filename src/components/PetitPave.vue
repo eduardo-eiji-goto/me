@@ -137,9 +137,3 @@
         </g>
     </svg>
 </template>
-
-<style scoped>
-svg {
-    fill: var(--color-accent);
-}
-</style>

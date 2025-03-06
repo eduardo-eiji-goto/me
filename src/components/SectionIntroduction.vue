@@ -2,7 +2,7 @@
     <section class="container">
         <article>
             <h1>
-                Hello World! <br />
+                <span class="hello">Hello World!</span> <br />
                 I'm
                 <span class="name">Eduardo Eiji Goto</span>
             </h1>
@@ -14,6 +14,7 @@
             </p>
 
             <div class="button-group">
+                <PetitPave class="petit-pave" />
                 <a
                     v-for="link in socialLinks"
                     :key="link.label"
@@ -26,8 +27,6 @@
                 </a>
             </div>
         </article>
-
-        <PetitPave class="petit-pave" />
     </section>
 </template>
 
@@ -47,6 +46,10 @@ section {
     grid-template-columns: auto auto;
 
     position: relative;
+
+    .hello {
+        color: var(--color-umber);
+    }
 
     .name {
         color: var(--color-primary);
@@ -105,15 +108,26 @@ section {
 }
 
 .petit-pave {
-    position: absolute;
-    z-index: -1;
-    right: 0;
-    bottom: 0;
-    transform: translate(25%, 15%);
+    width: 5em;
+    height: 5em;
 
-    width: 20em;
-    height: 20em;
-    opacity: 0.5;
+    fill: var(--color-primary);
+}
+
+@media screen and (min-width: 50rem) {
+    .petit-pave {
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        bottom: 0;
+        transform: translate(25%, 15%);
+
+        width: 20em;
+        height: 20em;
+
+        fill: var(--color-accent);
+        opacity: 0.5;
+    }
 }
 
 .line-through {
