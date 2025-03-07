@@ -14,7 +14,6 @@
             </p>
 
             <div class="button-group">
-                <PetitPave class="petit-pave" />
                 <a
                     v-for="link in socialLinks"
                     :key="link.label"
@@ -26,6 +25,8 @@
                     <span>{{ link.label }}</span>
                 </a>
             </div>
+
+            <PetitPave class="petit-pave" />
         </article>
     </section>
 </template>
@@ -112,6 +113,7 @@ section {
     height: 5em;
 
     fill: var(--color-primary);
+    margin-top: 2em;
 }
 
 @media screen and (min-width: 50rem) {
