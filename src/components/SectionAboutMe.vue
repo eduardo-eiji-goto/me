@@ -41,13 +41,19 @@
             <h3>Web Development</h3>
 
             <p>
-                As a Web Developer I'm always interested in learning about what the customer
-                wants/needs to communicate, always keeping in touch to make sure the final product
+                As a Web Developer I'm always interested researching what the customer wants/needs
+                to communicate, always keeping in touch with them to make sure the final product
                 feels their own.
             </p>
 
             <p>
-                For custom solutions I usually work with either React or Vue, and for Salesforce
+                My main concerns when developing are content, usability and accessibility.It takes a
+                lot of effort to make sure a paragraph is well written and to make sure a button can
+                be used by anyone.
+            </p>
+
+            <p>
+                For custom solutions I usually work with either Vue or React, and for Salesforce
                 solutions I utilize Salesforce resources, such as Lightning Web Components.
             </p>
         </section>
@@ -74,5 +80,6 @@
 <style scoped>
 h3 {
     margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 </style>
