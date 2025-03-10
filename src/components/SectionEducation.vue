@@ -62,4 +62,8 @@ h3 > span {
 h3:has(span) {
     line-height: 1;
 }
+
+h4 {
+    color: var(--color-primary);
+}
 </style>
