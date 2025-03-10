@@ -56,6 +56,7 @@
 <style scoped>
 h3 > span {
     font-size: 1rem;
+    color: var(--color-umber);
 }
 
 h3:has(span) {
