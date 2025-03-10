@@ -1,11 +1,11 @@
 export function useSocialLinks() {
     return [
         {
-            label: 'Github',
+            label: 'GitHub',
             to: 'https://github.com/eduardo-eiji-goto',
         },
         {
-            label: 'Linkedin',
+            label: 'LinkedIn',
             to: 'https://www.linkedin.com/in/eduardo-eiji-goto',
         },
     ]
