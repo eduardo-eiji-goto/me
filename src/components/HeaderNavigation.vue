@@ -20,7 +20,12 @@
                     {{ link.label }}
                 </a>
             </nav>
-            <button v-else class="mobile-nav__button" @click="openNavigation = !openNavigation">
+            <button
+                v-else
+                class="mobile-nav__button"
+                @click="openNavigation = !openNavigation"
+                aria-label="Show Mobile Navigation"
+            >
                 <IconMenu v-if="!openNavigation" />
                 <IconX v-else />
             </button>
