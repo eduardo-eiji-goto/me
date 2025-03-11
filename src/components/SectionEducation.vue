@@ -64,6 +64,6 @@ h3:has(span) {
 }
 
 h4 {
-    color: var(--color-primary);
+    color: var(--color-umber);
 }
 </style>
